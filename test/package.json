@@ -1,0 +1,17 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "cypress on docker",
+  "directories": {
+    "": "test"
+  },
+  "scripts": {
+    "test": "cypress run "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  e2e:
+    container_name: cypress
+    build: .
+    command: >
+      bash -c 'npm install &&
+      npm test'
+    volumes:
+      - ./test:/test
